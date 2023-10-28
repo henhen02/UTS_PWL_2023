@@ -5,8 +5,8 @@ This application was built with [React](https://react.dev/) with template by [Vi
 ## How To Run
 
 > [!IMPORTANT]
-> Before you can run this app, make sure that you have installed `Node.js` and `Git` on your computer (Please note, Git and Github are not same!)
-> To be able to use the features provided, please install the backend for this application
+> Before you can run this app, make sure that you have installed `Node.js` and `Git` on your computer (Please note, Git and Github are not same!).
+> To be able to use the features provided, please install the backend for this application [UTS_PWL_2023_BACKEND](https://github.com/henhen02/UTS_PWL_2023_BACKEND.git)
 
 #### Clone this repositories
 
