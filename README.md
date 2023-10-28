@@ -34,6 +34,12 @@ Before you can run this app, you are required to install the necessary dependenc
 pnpm install
 ```
 
+or
+
+```
+npm i
+```
+
 The dependency installation process will take about 5-10 minutes (depending on your internet speed). If the dependency installation fails and an error message appears, try to make sure that you have installed [Node.js](https://nodejs.org/en).
 
 #### Start For Run The App
@@ -44,7 +50,29 @@ This app runs in development mode, you can run this app using the following comm
 pnpm run dev
 ```
 
+or
+
+```
+npm run dev
+```
+
 This App run at [http://localhost:5173](http://localhost:5173).
+
+## Preview
+
+![Home1](./src/assets/home1.PNG)
+
+####
+
+![Home2](./src/assets/home2.PNG)
+
+####
+
+![Form](./src/assets/Form.PNG)
+
+####
+
+![Cart](./src/assets/cart.PNG)
 
 ## Author
 

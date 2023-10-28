@@ -1,15 +1,16 @@
 import React, { useState } from "react";
 import toast from "react-hot-toast";
 import Main from "../layouts/Main";
-import Card from "../components/Card";
 import Header from "../layouts/Header";
-import useDaftarBarang from "../hooks/useDaftarBarang";
-import LoadingCard from "../components/LoadingCard";
+// import useDaftarBarang from "../hooks/useDaftarBarang";
+// import LoadingCard from "../components/LoadingCard";
 import { useNavigate } from "react-router-dom";
+import dataDump from "../dump/dataDump";
+import Card from "../components/Card";
 
 const Beranda = () => {
   const navigate = useNavigate();
-  const { data, error, isLoading } = useDaftarBarang();
+  // const { data, error, isLoading } = useDaftarBarang();
 
   const handleNoReleaseFiture = () => {
     toast.error("Fitur ini belum tersedia");
@@ -37,7 +38,29 @@ const Beranda = () => {
             </div>
           </div>
           <div className="flex flex-row gap-[25px] py-[10px] w-full overflow-x-auto example">
-            {isLoading ? (
+            {dataDump.map((item, index) => {
+              return (
+                <Card
+                  img_url={item.produk_image}
+                  product_title={item.produk_title}
+                  product_price={item.produk_price}
+                  onClickBuy={handleNoReleaseFiture}
+                  onClickCart={handleNoReleaseFiture}
+                  onClickDetail={() => navigate(`/produk/${item.produk_id}`)}
+                />
+              );
+            })}
+          </div>
+        </div>
+      </Main>
+    </>
+  );
+};
+
+export default Beranda;
+
+{
+  /* {isLoading ? (
               <LoadingCard />
             ) : (
               data?.map((item, index) => {
@@ -53,12 +76,5 @@ const Beranda = () => {
                   />
                 );
               })
-            )}
-          </div>
-        </div>
-      </Main>
-    </>
-  );
-};
-
-export default Beranda;
+            )} */
+}

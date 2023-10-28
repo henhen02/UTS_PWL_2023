@@ -7,6 +7,7 @@ const dataDump = [
     produk_price: 5000000,
     produk_image:
       "https://qph.cf2.quoracdn.net/main-qimg-bd979df58a2c26ec90e77d23a8469d4b",
+    produk_type: "Elektronik",
   },
   {
     produk_id: 2,
@@ -16,6 +17,7 @@ const dataDump = [
     produk_price: 200000,
     produk_image:
       "https://pagaralampos.disway.id/upload/a0172259862e88d4c68c1642a5877d84.jpg",
+    produk_type: "Otomotif",
   },
   {
     produk_id: 3,
@@ -25,6 +27,7 @@ const dataDump = [
     produk_price: 200000,
     produk_image:
       "https://plazait.co.id/wp-content/uploads/2023/05/Dirty-Keyboard.jpg",
+    produk_type: "Elektronik",
   },
   {
     produk_id: 4,
@@ -34,6 +37,7 @@ const dataDump = [
     produk_price: 1000000,
     produk_image:
       "https://cdn.bukamatanews.id/imageresize/images/handphone-retak.png",
+    produk_type: "Elektronik",
   },
   {
     produk_id: 5,
@@ -43,6 +47,7 @@ const dataDump = [
     produk_price: 2000000,
     produk_image:
       "https://static.lenovo.com/mea/campaign/newmonitors/images/y-series/Y27f-30/17_Legion_Y27f-30_Front_Facing_Left_Normal_Position.png.png",
+    produk_type: "Elektronik",
   },
   {
     produk_id: 6,
@@ -52,6 +57,7 @@ const dataDump = [
     produk_price: 1000000,
     produk_image:
       "https://img.id.my-best.com/contents/57443dcd29b2725386ae48b8a14a0436.png?ixlib=rails-4.3.1&q=70&lossless=0&w=1200&h=900&fit=crop&s=adcad31210b258a53d1edfb8922c8544",
+    produk_type: "Otomotif",
   },
   {
     produk_id: 7,
@@ -61,6 +67,7 @@ const dataDump = [
     produk_price: 200000,
     produk_image:
       "https://id.abismoldengineering.com/uploads/20187506/201804231424580800771.jpg",
+    produk_type: "Rumah Tangga",
   },
   {
     produk_id: 8,
@@ -70,6 +77,7 @@ const dataDump = [
     produk_price: 20000,
     produk_image:
       "https://static.promediateknologi.id/crop/0x0:0x0/750x500/webp/photo/2023/02/21/Screenshot-347-3721392285.png",
+    produk_type: "Rumah Tangga",
   },
 ];
 
